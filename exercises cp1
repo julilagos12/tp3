@@ -1,0 +1,9 @@
+def analyser texte 
+    texte= input("Entrez un texte: ")
+    texte_minuscule=texte.lower()
+    texte_sans_ponctuation=("")
+    for caractere in texte_minuscule:
+        if caractere not in string.punctuation:
+            texte_sans_ponctuation+=caractere
+
+
